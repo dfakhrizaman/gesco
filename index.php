@@ -89,7 +89,7 @@ if(isset($_REQUEST["u_sub"]))
 
         </div>
 
-        <p id="signup">Don't have an account? <a href="signup.php">Sign up now </a></p>
+        <p id="signup-button">Don't have an account? <a href="signup.php">Sign up now </a></p>
       </div>
 
     </center>
