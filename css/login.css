@@ -1,0 +1,104 @@
+body {
+  background-color: #f8f6f6;
+  display: flex; /* enable flexbox */
+  align-items: center; /* center items vertically */
+  justify-content: center;
+}
+
+i {
+  background: #dfe0e1;
+  border-radius: 20px;
+  font-size: 25px;
+  text-align: center;
+  margin-right: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  padding: 10px;
+  margin: 20px;
+}
+
+.profile {
+  margin: 20px;
+}
+
+.main-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.text-input {
+  margin-bottom: 16px;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+#divtop {
+  width: 1000px;
+  height: 60%;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 14px #999999;
+  padding: 50px;
+}
+
+#adivtop {
+  background-image: url(../images/bg1.jpg);
+  width: 1000px;
+  height: 480px;
+  border-radius: 5px;
+  display: block;
+  margin-left: 170px;
+  box-shadow: 0px 0px 14px #999999;
+}
+
+#divbot {
+  background-image: url(../images/lightg.jpg);
+  width: 1000px;
+  height: 650px;
+  margin-left: 170px;
+  display: block;
+}
+
+#dmain {
+  border-radius: 25px;
+  background-color: white;
+  width: 400px;
+  height: 60%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#u_sub {
+  width: 100%;
+  background-color: #2c6aa0;
+  color: white;
+}
+
+.gesco-logo {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+#cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+#signup {
+  margin-bottom: 16px;
+}
